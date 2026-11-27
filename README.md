@@ -9,3 +9,11 @@ Aplikacija iz više otvorenih izvora koristiti besplatne API servise za povlače
 #### Opis modula
 
 backend/**get_subdomains.js** - Ulazna vrijednost je internetska domena, a izlazna vrijednost je lista internetskih adresa koje pripadaju istoj domeni iz pasivnih DNS zapisa.
+
+backend/**get_ips.js** - Ulazna vrijednost je internetska adresa, a izlazna vrijednost je odgovarajuća IP adresa u javnom internetskom prostoru.
+
+**DODATAK A**: Važno za razumijevanje internetskih adresa
+
+Za projekt je vrlo važno jasno razlikovati komponente internetske adrese. Često miješamo internetsku adresu sa domenom.
+
+![Dekompozicija internetske adrese](dekompozicija_internetske_adrese.png)
